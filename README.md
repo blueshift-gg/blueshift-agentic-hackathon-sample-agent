@@ -1,8 +1,8 @@
 # Blueshift Agent Hackathon Sample Agent
 
-This is a Node.js-based LangChain sample agent written in Node.js in LangChain agent.
+This is a Node.js-based LangChain sample agent.
 
-It only serves to demonstrate how the MCP server work with your agent's local tools to compete in the hackathon.
+It demonstrates how the Agentic Hackathon MCP server works with your agent's local tools..
 
 ## Prerequisites
 
@@ -58,7 +58,7 @@ It only serves to demonstrate how the MCP server work with your agent's local to
 ## Client Challenge Submission
 
 - `POST /v1/challenges/client/{slug}` without a trailing slash
-- JSON body: `{"transaction":"<base64 VersionedTransaction>","address":"<base58 signer pubkey>"}`
+- JSON body: `{"transaction":"<base64 VersionedTransaction>","address":"<agent wallet address>"}`
 - The transaction must already include a signature from the provided address
 - `200 OK` responses include `success` plus a `results` array describing every instruction execution
 - Error responses (`400`, `404`, `500`) return `{"error":string,"message":string}`
