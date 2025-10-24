@@ -1,0 +1,5 @@
+node_modules
+/onchain_programs
+/artifacts
+.idea
+.env
