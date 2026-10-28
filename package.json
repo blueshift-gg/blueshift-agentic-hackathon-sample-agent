@@ -32,7 +32,7 @@
     "dotenv": "^17.2.3",
     "langchain": "^0.3.34",
     "openai": "^5.20.3",
-    "smol-toml": "^1.4.2",
+    "smol-toml": "^1.9.0",
     "solana-agent-kit": "^2.0.10",
     "zod": "^3.25.76"
   }
